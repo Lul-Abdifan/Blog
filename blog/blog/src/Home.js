@@ -20,9 +20,16 @@ const Home = () =>
         id:3
 },
     ])
+    const handleClick=(id)=>
+    {
+      const newItems = blog.filter(item => item.id !== id);
+  setBlog(newItems);
+
+    }
     return ( 
 <div>
-  <Lists lists={blog}/>
+  <Lists lists={blog} 
+  delete={handleClick}/>
 
 </div>
      );
