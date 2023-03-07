@@ -17,6 +17,9 @@ const Navbar = () => {
           <Link to="/addBlog">
             <li>New Blog</li>
           </Link>
+          <Link to="/contact">
+            <li>Contact</li>
+          </Link>
         </ul>
       </div>
     </nav>
