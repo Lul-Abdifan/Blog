@@ -27,7 +27,7 @@ const Home = () => {
   };
   return (
     <div>
-      <Lists lists={blog} delete={handleClick} />
+    <Lists lists={blog} delete={handleClick} /> <Lists lists={blog} delete={handleClick} />
     </div>
   );
 };

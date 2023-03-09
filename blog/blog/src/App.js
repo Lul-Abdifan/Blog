@@ -6,6 +6,7 @@ import Navbar from "./Navbar";
 import AddBlog from "./AddBlog";
 import About from "./About";
 import Contact from "./contact";
+import App1 from "./App1"
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/addBlog" element={<AddBlog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/App1" element={<App1 />} />
+
+          
         </Routes>
       </div>
     </Router>
